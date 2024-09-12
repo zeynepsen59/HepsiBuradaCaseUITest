@@ -9,7 +9,9 @@ Bu projede Hepsiburada tarafından verilen task yazılmış olup senaryolar Page
 
 * Annotasyonlar ve assertionlar için JUnit kütüphanesi kullanılmıştır.
 
-* Proje Java dilinde Selenium frameworku ile geliştirilmiştir .
+* Proje içerisindeki configuration.properties dosyası içerisinde browser ayarı değiştirilerek farklı tarayıcılarda da proje run edilebilir.
+
+* Selenium ile Singleton mimarisi, test senaryolarını daha düzenli ve etkili bir şekilde yönetmeye yardımcı olur. Singleton, bir sınıfın yalnızca bir örneğini oluşturmayı ve bu örneğe global olarak erişim sağlamayı amaçlayan bir tasarım desenidir. Bu sınıf, WebDriver nesnesinin tek bir örneğini oluşturur ve bu örneğe global erişim sağlar. Bu, kaynakları yönetmeyi ve performansı iyileştirmeyi sağlar.
 
 
 ## Hepsiburada Task İsterleri  </br>

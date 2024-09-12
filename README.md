@@ -9,7 +9,7 @@ Bu projede Hepsiburada tarafından verilen task yazılmış olup senaryolar Page
 
 * Annotasyonlar ve assertionlar için JUnit kütüphanesi kullanılmıştır.
 
-* Proje Java dilinde Selenium frameworku ile geliştirilmiştir . Mimaride POM kullanılmıştır.
+* Proje Java dilinde Selenium frameworku ile geliştirilmiştir .
 
 
 ## Hepsiburada Task İsterleri  </br>

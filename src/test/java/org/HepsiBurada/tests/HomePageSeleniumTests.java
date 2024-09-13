@@ -67,7 +67,6 @@ public class HomePageSeleniumTests {
         goReviewsTab();
 
         if (productDetailPage.reviewFilterTags.isDisplayed()) {
-            BrowserUtils.scrollIntoView(productDetailPage.reviewFilterTags);
             productDetailPage.likeReviewIcon.click();
 
             BrowserUtils.sleep(2);

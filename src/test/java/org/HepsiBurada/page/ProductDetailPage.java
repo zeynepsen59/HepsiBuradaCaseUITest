@@ -17,7 +17,7 @@ public class ProductDetailPage {
     @FindBy(xpath = "(//div[contains(@class,'thumbsUp')])[1]")
     public WebElement likeReviewIcon;
 
-    @FindBy(css = "#hermes-voltran-comments > div.hermes-ReviewList-module-eY_sarN5VMgtON43g9EM > div.paginationOverlay > div > div:nth-child(1) > div.hermes-ReviewCard-module-BJtQZy5Ub3goN_D0yNOP > div.hermes-ReviewCard-module-PIYjivsoZ80VfkdrlGgg > div.hermes-ReviewCard-module-QA5PqdPP5EhkpY_vptfv > span")
+    @FindBy(xpath = "//*[@id='hermes-voltran-comments']/div[5]/div[3]/div/div[1]/div[2]/div[5]/div[2]/span")
     public WebElement likeReviewText;
 
     @FindBy(xpath = "(//div[contains(@class,'hermes-FilterTags')])[1]")
